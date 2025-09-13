@@ -40,10 +40,10 @@ client.on("interactionCreate", async (interaction) => {
   if (interaction.customId !== "ticket-menu") return;
 
   const categoryId = {
-    support: "ID_CATEGORY_SUPPORT",
-    complaint: "ID_CATEGORY_COMPLAINT",
-    buy: "ID_CATEGORY_BUY",
-    other: "ID_CATEGORY_OTHER",
+    support: "1416266752207229072",
+    complaint: "1416266818691006685",
+    buy: "1416266850437959763",
+    other: "1416266879009292288",
   };
 
   const value = interaction.values[0];
